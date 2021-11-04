@@ -304,7 +304,7 @@ def main():
     env_dist = os.environ
 
     stu = hfuter(username=env_dist['username'], password=env_dist['password'])
-    stu.daily_checkin(env_dist['address']):
+    stu.daily_checkin(env_dist['address'])
         #requests.post('https://sctapi.ftqq.com/'+'SCT90291TjMfYPulzVywh2zT0yAjABdJP'+'.send?text=自动打卡成功-From Git Hub Action'+output_data)
 
 
